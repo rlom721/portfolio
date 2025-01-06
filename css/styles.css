@@ -37,10 +37,6 @@ footer {
     align-items: center;
 }
 
-/* header {
-    border-bottom: 5px solid #974EC3;
-} */
-
 /* --- Navbar Section --- */
 
 /* navbar div within header keeps items centered while zooming */
@@ -58,6 +54,7 @@ footer {
     flex: 1;
     border: 3px solid transparent;
     transition: 0.3s ease-out;
+    text-shadow: 2px 2px 0 #974EC3;
 }
 
 .logo:hover {
@@ -84,7 +81,7 @@ footer {
     background-color: #504099;
     color: #313866;
     border: 3px solid #313866;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 #navbar ul {
@@ -128,13 +125,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
 }
 
 .hero-text h1 {
     font-size: 48px;
     margin-bottom: 12px;
     font-weight: 700;
+    text-shadow: 2px 2px 0 #974EC3;
+    padding-bottom: 20px;
 }
 
 .hero-text p {
@@ -165,9 +163,6 @@ footer {
     /* text-shadow: #FE7BE5 2px 2px; */
 }
 
-.hero-text h1 {
-    text-shadow: 2px 2px 0 #974EC3;
-}
 /* .img {
     background: #8a8a8a;
     width: 300px;
@@ -178,10 +173,28 @@ footer {
     align-items: center;
 } */
 
-/* .hero-text h1 {
-    text-decoration: underline;
-} */
+/* --- Skills? Section --- */
 
+/* .quote {
+    background: #504099;
+    color: #FE7BE5;
+    padding: 64px 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .text h4 {
+    font-size: 20px;
+    text-align: end;
+} */
+ 
 /* --- Information Section --- */
 
 .information {
@@ -199,6 +212,7 @@ footer {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    text-shadow: 2px 2px 0 #974EC3;
 }
 
 .info-cards {
@@ -240,14 +254,6 @@ footer {
     gap: 24px;
 }
 
-/* .info-header img {
-    flex: 1;
-}
-
-.info-header-text {
-    flex: 5;
-} */
-
 .info img {
     max-width: 70px;
     max-height: 70px;
@@ -263,27 +269,61 @@ footer {
     margin-bottom: 5px;
 }
 
-/* --- Quote Section --- */
+/* --- Projects Section --- */
 
-/* .quote {
-    background: #504099;
-    color: #FE7BE5;
-    padding: 64px 192px;
+.projects {
+    padding: 48px 192px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #313866;
+    color:#FE7BE5;
+    gap: 32px;
 }
 
-.quote .text {
+.projects .title {
     font-size: 36px;
-    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 2px 2px 0 #974EC3;
 }
 
-.quote .text h4 {
-    font-size: 20px;
-    text-align: end;
-} */
+.project-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.project {
+    font-size: 14px;
+    color: #eee;
+    border: 3px solid transparent;
+    max-width: 100px;
+    text-align: center;
+    flex: 1;
+}
+
+.project:hover {
+    color: #FE7BE5;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+
+.project:hover .project-img {
+    background-color:#FE7BE5;
+    color: #313866;
+    border: 3px solid #313866;
+    font-weight: bold;
+}
+
+.project-img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #974EC3;
+    border-radius: 12px;
+}
   
 /* --- Sign Up Section --- */
 
@@ -293,6 +333,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #313866;
 }
 
 .sign-up-box {
