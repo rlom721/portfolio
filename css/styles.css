@@ -76,7 +76,8 @@ footer {
 .links li {
     border: 3px solid transparent;
     padding: 8px;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-out;
+    /* min-width: 100px; */
 }
 
 .links li:hover {
@@ -158,6 +159,15 @@ footer {
     font-weight: bold;
 }
 
+#name {
+    /* background-color:#FE7BE5; */
+    color: #FE7BE5;
+    /* text-shadow: #FE7BE5 2px 2px; */
+}
+
+.hero-text h1 {
+    text-shadow: 2px 2px 0 #974EC3;
+}
 /* .img {
     background: #8a8a8a;
     width: 300px;
@@ -213,13 +223,15 @@ footer {
 
 .info:hover {
     background-color:#504099;
-    color: #FE7BE5;
     /* padding: 25px 50px 25px 50px; */
     padding: 50px 0px 50px 35px;
     max-width: 600px;
 }
+.info:hover .info-header{
+    color: #FE7BE5;
+}
 
-.experience {
+.info-body .text {
     margin-top: 16px;
 }
 
@@ -245,6 +257,10 @@ footer {
 .info-body {
     padding-left: 25px;
     max-width: 550px;
+}
+
+.experience li {
+    margin-bottom: 5px;
 }
 
 /* --- Quote Section --- */

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Webpage</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -13,7 +14,7 @@
                 Rafaela Lomboy
             </div>
             <ul class="links">
-                <li><a href="#">Experience</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -23,7 +24,7 @@
     <div id="content">
         <div class="hero">
             <div class="hero-text">
-                <h1>Hi there, I'm Rafaela.</h1>
+                <h1>Hi there, <span id="name">I'm Rafaela.</span></h1>
                 <p>I recently graduated with a degree in computer science and a minor in math.</p>
                 <p><em>I'm passionate about data, problem solving and simplifying technical concepts into language that is accessible to everyone.</em></p>
                 <!-- <button>Button to press</button> -->
@@ -34,7 +35,7 @@
         </div>
 
         <div class="information">
-            <div class="title">Experience</div>    
+            <div class="title" id="experience">Experience</div>    
             <div class="info-cards">
                 <div class="info">
                     <div class="info-header">
@@ -46,7 +47,7 @@
                         </div>
                     </div>
                     <div class="info-body">
-                        <ul class="experience">
+                        <ul class="text">
                             <li>Worked on NSF-funded project under Dr. Eltayeb studying mmWave technology for next-gen wireless networks.</li>
                             <li>Assisted in research and report writing, equipment setup and data processing and modeling using Python, MATLAB and Excel.</li>
                             <li>Collected data and wrote research paper on LiDAR applications for mmWave beam alignment.</li>
@@ -57,13 +58,13 @@
                     <div class="info-header">
                         <img src="images/nasa.jpg" alt="UEI logo">
                         <div class="info-header-text">
-                            <h3>Deployable Autonomy Technologies Intern</h3>
+                            <h2>Deployable Autonomy Technologies Intern</h2>
                             <h3>NASA OSTEM</h3>
                             <h4>Jan 2023 - Aug 2023 · (8 months)</h4>
                         </div>
                     </div>
                     <div class="info-body">
-                        <ul class="experience">
+                        <ul class="text">
                             <li>Worked under civil/field engineer to support development of materials database for lunar applications.</li>
                             <li>Used enterprise GIS applications (ArcGIS Online & Esri) and conducted research on domain, different technologies and software.</li>
                             <li>Coauthored an extended research abstract on the development of an enterprise-wide materials database for lunar applications.</li>
@@ -81,7 +82,7 @@
                         </div>
                     </div>
                     <div class="info-body">
-                        <ul class="experience">
+                        <ul class="text">
                             <li>Led team’s role review effort to improve SAP system security by ensuring least user access.</li>
                             <li>Analyzed codes in Excel, tested updates using scripts in Microsoft Visual Basic to process list data (0-200+ codes).</li>
                             <li>Tested SAP system patch updates on enterprise applications in a sandbox environment, following the Software Development Life Cycle (SDLC) and completed five different test scripts for three different areas.</li>
