@@ -59,14 +59,15 @@ header {
     font-weight: 800;
     flex: 1;
     border: 3px solid transparent;
-    /* transition: 0.3s ease-out; */
     text-shadow: 2px 2px 0 #974EC3;
+    /* padding: 8px; */
+    transition: 0.3s ease-out;
 }
 
 .logo:hover {
     background-color: #504099;
-    border: 3px solid #504099;
-    /* font-size: 36px; */
+    color: #FE7BE5;
+    border: 3px solid #313866;
 }
 
 .links {
@@ -86,7 +87,6 @@ header {
 
 .links li:hover {
     background-color: #504099;
-    color: #313866;
     border: 3px solid #313866;
 }
 
@@ -127,7 +127,7 @@ footer {
 
 .hero {
     background: #313866;
-    padding: 64px 192px;
+    padding: 48px 192px;
     color: #eee;
     display: flex;
     justify-content: center;
@@ -144,6 +144,7 @@ footer {
 
 .hero-text p {
     font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .hero-text button {
@@ -280,7 +281,7 @@ footer {
 }
 
 
-/* --- Projects Section --- */
+/* --- Project Section --- */
 
 .projects {
     padding: 48px 192px;
