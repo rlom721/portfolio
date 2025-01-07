@@ -14,8 +14,3 @@ function copyText() {
     navigator.clipboard.writeText(copyText);
     alert("Copied to clipboard: " + copyText);
 }
-
-window.onload = function() {
-    const title = document.getElementById(".hero-text");
-    title.classList.add("fade-in");
-};
