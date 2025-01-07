@@ -382,27 +382,29 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     gap: 24px;
-}
-.sign-up .right {
-    min-width: 104px;
 }
 
 .sign-up p {
     font-size: 12px;
 }
 
-.sign-up button {
+.sign-up button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: #974EC3;
     color: #eee;
     border: 3px solid #FE7BE5;
     border-radius: 8px;
     padding: 6px 24px;
     white-space: nowrap;
-    font-weight: normal;
+    font-weight: bold;
+    gap: 14px;
 }
 
-.sign-up button:hover {
+.sign-up button:hover{
     background-color:#FE7BE5;
     color: #313866;
     transition-duration: 0.4s;
@@ -414,4 +416,14 @@ footer {
     max-width: 70px;
     max-height: 70px;
     height: auto;  
+    /* border: 5px solid #FE7BE5; */
+}
+
+.sign-up button img {
+    height: 25px;
+    max-width: auto;
+}
+
+.sign-up a {
+    text-decoration: none;
 }

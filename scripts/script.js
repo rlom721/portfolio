@@ -12,7 +12,7 @@ function copyText() {
     var copyText = "rafaela.lomboy@gmail.com";
 
     navigator.clipboard.writeText(copyText);
-    alert("Copied email: " + copyText);
+    alert("Copied to clipboard: " + copyText);
 }
 
 window.onload = function() {
