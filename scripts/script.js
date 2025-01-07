@@ -10,7 +10,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 function copyText() {
     var copyText = "rafaela.lomboy@gmail.com";
-  
+
     navigator.clipboard.writeText(copyText);
     alert("Copied email: " + copyText);
-  }
+}
+
+window.onload = function() {
+    const title = document.getElementById(".hero-text");
+    title.classList.add("fade-in");
+};
