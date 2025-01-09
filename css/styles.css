@@ -141,12 +141,16 @@ footer a {
     align-items: center;
 }
 
+.hero-text {
+    padding: 24px 64px;
+}
+
 .hero-text h1 {
     font-size: 48px;
     margin-bottom: 12px;
     font-weight: 700;
     text-shadow: 2px 2px 0 #974EC3;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .hero-text p {
@@ -377,11 +381,12 @@ footer a {
 }
 
 .projects p {
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .project-info a {
+    text-decoration: underline;
     color: #eee;
     font-weight: bold;
 }
